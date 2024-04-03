@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+    background-color: #effffd;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    font-family: "JetBrains Mono";
+}
+
+.card{
+    transition: .5s;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 5rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+}
+.card:hover{
+    width: 42rem;
+    height: 42rem;
+}
+.card--img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.card--slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 4rem;
+}
+
+.card--slider > h2{
+    font-size: 400%;
+}
+
+.card--slider > input{
+    appearance: none;
+    width: 100%;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.card--stopwatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.timerText{
+    font-size: 200%;
+}
+
+.button{
+    width: 9rem;
+    height: 5rem;
+    transition: .5s;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 10px;
+    border-style: solid;
+}
+.button:hover{
+    width: 10rem;
+    height: 6rem;
+    border-color: white;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#button--start{
+    background: limegreen;
+}
+#button--stop{
+    background: red;
+}
+#button--reset{
+    background: yellow;
+}

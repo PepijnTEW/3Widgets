@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+    <title>Mijn eerste Dashboard</title>
+</head>
+<body id="body--body">
+    <article class="card card--img">
+        <figure>
+            <img id="js--img" src="" alt="json image">
+            <figcaption id="js--img-txt"></figcaption>
+        </figure>
+    </article>
+    <article class="card card--slider">
+        <h2 id="slider--rangeValue">1</h2>
+        <input id="slider--slider" type="range" min="1" max="4" step="1">
+    </article>
+    <article class="card card--stopwatch">
+        <div>
+            <span class="timerText" id="timer--minutes">0</span>
+            <span class="timerText">:</span>
+            <span class="timerText" id="timer--seconds">0</span>
+        </div>
+        <section class="buttonWrapper">
+            <button class="button" id="button--start">Start</button>
+            <button class="button" id="button--stop">Stop</button>
+            <button class="button" id="button--reset">Reset</button>
+        </section>
+    </article>
+</body>
+</html>
