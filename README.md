@@ -1,4 +1,4 @@
-# 3Widgets assigment\
+# 3Widgets assigment
 *PepijnTEW*\
 This is a Website made for SKIL.\
 There is a Stopwatch, Resizeble fonts and my first loaded json file in this project.\
